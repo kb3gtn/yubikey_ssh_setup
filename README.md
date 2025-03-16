@@ -38,7 +38,7 @@ p11tool --list-tokens
 ```
 Should see a token entry with "Hardware Token" as the type using opensc-pkcs11.so.
 
-## setup SSH Agent
+## Setup SSH Agent
 
 create (if it doesn't already exist) ~/.gnupg/gpg.conf    
 put the following in it:
