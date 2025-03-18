@@ -88,7 +88,7 @@ This is typically going to be something like "/run/user/1000/gnupg/S.gpg-agent"
 
 for bash, put the following in your bash.rc file:
 ```
-export SSH_AGENT_SOCK=/run/user/1000/gnupg/S.gpg-agent
+export SSH_AUTH_SOCK=/run/user/1000/gnupg/S.gpg-agent
 
 ```
 
