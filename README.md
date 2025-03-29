@@ -82,6 +82,13 @@ default-cache-ttl 60
 max-cache-ttl 120
 ```
 
+create (if it doesn't alraedy exist) ~/.gnupg/scdaemon.conf    
+Put the following into it:
+```
+disable-ccid
+
+```
+
 # Create SSH_AGENT_SOCK environment variable
 create a SSH_AGENT_SOCK environment variable to point to the GPG SSH AGENT socket service interface.
 This is typically going to be something like "/run/user/1000/gnupg/S.gpg-agent"
