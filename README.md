@@ -86,7 +86,7 @@ create (if it doesn't alraedy exist) ~/.gnupg/scdaemon.conf
 Put the following into it:
 ```
 disable-ccid
-
+pcsc-driver /usr/lib/libpcsclite.so
 ```
 
 # Create SSH_AGENT_SOCK environment variable
@@ -130,6 +130,14 @@ ssh-add -L
 
 ```
 Should spit out a list of keys available via gpg agent interface.  Yubikey should be one if plugged in.
+
+## Not working, things to try
+List of things you can try:
+```
+gpg-connect-agent 'SCD KILLSCD' /bye
+```
+
+
 
 
 
