@@ -7,7 +7,7 @@ This will allow you to use the PKI from the yubikey to authentication via SSH to
 
 Arch Distros:
 ```
-sudo pacman -S pcsclite ccid gnupg
+sudo pacman -S pcsclite ccid gnupg pcsc-tools
 paru -S opensc-p11-kit-module
 ```
 
