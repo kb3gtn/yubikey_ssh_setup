@@ -112,7 +112,7 @@ Then Restart your shell..
 
 See if pcsc can see the smartcard / yubikey
 ```
-pcsc-scan
+pcsc_scan
 
 ```
 Should see it pop up with your YUBIKEY information.
